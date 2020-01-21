@@ -3,7 +3,7 @@ A prototype of an Off-line Handwritten Character Recognition
 
 Trained on 28000 examples from the IAM-word dataset, validated on 8400 and tested on 3600.
 
-It is built from a CRNN architecture, with a CTC(Connectionist Temporal Classification) loss and decoder.
+It is built from a CRNN architecture, with a CTC(Connectionist Temporal Classification) loss and decoder(greedy decoder).
 
 After training for 30 epochs, the training loss: 4.2730 - val_loss: 5.1883.
 
