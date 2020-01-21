@@ -5,6 +5,6 @@ Trained on 28000 examples from the IAM-word dataset, validated on 8400 and teste
 
 It is built from a CRNN architecture, with a CTC(Connectionist Temporal Classification) loss and decoder(greedy decoder).
 
-After training for 30 epochs, the training loss: 4.2730 - val_loss: 5.1883.
+After training for 30 epochs, the training loss: 4.2730 - val_loss: 5.1883 from 4.49 training loss- val-loss: 20.75.
 
 Character Error Rate: 20.68% |  Word Accuracy: 55.67%
